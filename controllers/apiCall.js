@@ -1,5 +1,5 @@
 // Your PAT (Personal Access Token) can be found in the portal under Authentification
-const PAT = '68ecce6f0f2645adb28b9566ad9d2aed';
+const PAT = process.env.API_CLARIFAI_PAT;
 // Specify the correct user_id/app_id pairings
 // Since you're making inferences outside your app's scope
 const USER_ID = 'yyuqss';
